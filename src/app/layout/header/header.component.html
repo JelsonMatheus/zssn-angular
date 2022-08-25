@@ -1,5 +1,10 @@
-<nav class="navbar bg-light">
+<nav class="navbar navbar-dark bg-dark bg-light shadow">
     <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <div class="navbar-brand col-5 col-md-3 col-lg-2">
+            <button #btnToggle (click)="toggle()" class="navbar-toggler" data-target="sidebarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="ms-2 ms-md-5 fw-bold">ZSSN</span>
+        </div>
     </div>
 </nav>
